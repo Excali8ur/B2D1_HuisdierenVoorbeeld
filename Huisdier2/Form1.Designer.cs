@@ -37,6 +37,7 @@
             this.tbY = new System.Windows.Forms.TextBox();
             this.btnEten = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblHuisdieren = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -112,17 +113,27 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(12, 80);
+            this.pictureBox1.Location = new System.Drawing.Point(178, 80);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(556, 388);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
+            // lblHuisdieren
+            // 
+            this.lblHuisdieren.AutoSize = true;
+            this.lblHuisdieren.Location = new System.Drawing.Point(13, 80);
+            this.lblHuisdieren.Name = "lblHuisdieren";
+            this.lblHuisdieren.Size = new System.Drawing.Size(60, 13);
+            this.lblHuisdieren.TabIndex = 9;
+            this.lblHuisdieren.Text = "Huisdieren:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(580, 480);
+            this.ClientSize = new System.Drawing.Size(1029, 480);
+            this.Controls.Add(this.lblHuisdieren);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnEten);
             this.Controls.Add(this.label2);
@@ -152,6 +163,7 @@
         private System.Windows.Forms.TextBox tbY;
         private System.Windows.Forms.Button btnEten;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblHuisdieren;
     }
 }
 
